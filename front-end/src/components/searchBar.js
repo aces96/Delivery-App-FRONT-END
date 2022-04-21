@@ -19,7 +19,7 @@ const SearchBar = ()=>{
 
     return (
         <Box className='searchBar' boxShadow={24} sx={styles}>
-                <h2 style={{margin: "0%",fontFamily: 'Roboto, sans-serif'}}>FIND YOUR MEAL !</h2>
+                <h2 style={{margin: "0%",fontFamily: 'Roboto, sans-serif', color: '#33313B'}}>FIND YOUR MEAL !</h2>
                 <TextField label="Outlined secondary" color="primary" focused sx={{width: '50%', margin: 'auto', marginBottom: '10px', padding: '0%'}}/>
                 <Button color='primary' variant="contained" sx={{width: '40%', margin: 'auto' }}>Search</Button>
         </Box>

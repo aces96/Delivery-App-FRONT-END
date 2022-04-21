@@ -19,7 +19,7 @@ const Header = ()=>{
     }
 
     return (
-        <Box boxShadow={6} sx={styles}>
+        <Box  sx={styles}>
             <Grid container spacing={1 } sx={{height: '100%'}} justify="center" alignItems="center" direction="row">
                 <Grid item xs={4}>
                         <h1 style={{fontSize: '50px' , margin: '0%', fontFamily: 'Roboto, sans-serif'}}>Fastest</h1>

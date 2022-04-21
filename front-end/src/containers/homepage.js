@@ -1,7 +1,8 @@
 import Box from '@mui/material/Box';
 import Header from '../components/header';
 import Navbar from '../components/navbar';
-import SearchBar from '../components/searchBar';
+import SearchBar from '../components/searchBar'; 
+import MealsSection from '../components/meals.section';
 
 
 
@@ -23,6 +24,7 @@ const Home = ()=>{
             <Navbar/>
             <Header />
             <SearchBar/>
+            <MealsSection/>
 
         </Box>
     )
