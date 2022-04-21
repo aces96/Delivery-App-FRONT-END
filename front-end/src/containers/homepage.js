@@ -1,5 +1,7 @@
 import Box from '@mui/material/Box';
 import Header from '../components/header';
+import Navbar from '../components/navbar';
+import SearchBar from '../components/searchBar';
 
 
 
@@ -17,7 +19,9 @@ const Home = ()=>{
 
     return (
         <Box sx={styles}>
+            <Navbar/>
             <Header />
+            <SearchBar/>
 
         </Box>
     )
