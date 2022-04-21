@@ -11,14 +11,15 @@ const Header = ()=>{
 
     const styles = {
             height: '60%',
-            width: '100vw',
-            background: 'white',
-            marginBottom: '1rem'
+            width: '90vw',
+            background: 'rgb(255, 255, 255,0)',
+            marginBottom: '1rem',
+            margin: 'auto'
 
     }
 
     return (
-        <Box sx={styles}>
+        <Box boxShadow={6} sx={styles}>
             <Grid container spacing={1 } sx={{height: '100%'}} justify="center" alignItems="center" direction="row">
                 <Grid item xs={4}>
                         <h1 style={{fontSize: '50px' , margin: '0%', fontFamily: 'Roboto, sans-serif'}}>Fastest</h1>

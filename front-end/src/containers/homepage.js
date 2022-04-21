@@ -9,7 +9,6 @@ import SearchBar from '../components/searchBar';
 const Home = ()=>{
 
     const styles = {
-        background: 'gray',
         height: '100vh',
         width: '100%',
         margin: 'auto'
@@ -17,8 +16,10 @@ const Home = ()=>{
 
 
 
+
+
     return (
-        <Box sx={styles}>
+        <Box className='homepage' sx={styles}>
             <Navbar/>
             <Header />
             <SearchBar/>
