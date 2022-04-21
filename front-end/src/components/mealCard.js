@@ -9,8 +9,9 @@ import img from '../images/img1.jpg'
 export default function MultiActionAreaCard() {
     return (
     <Card sx={{ maxWidth: 345, height: '100%' }}>
-        <CardActionArea>
+        <CardActionArea onClick={()=>{console.log('yes')}}>
         <CardMedia
+            
             component="img"
             image={img}
             alt="green iguana"
