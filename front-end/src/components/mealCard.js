@@ -8,25 +8,26 @@ import img from '../images/img1.jpg'
 
 export default function MultiActionAreaCard() {
     return (
-    <Card sx={{ maxWidth: 345, height: '100%' }}>
-        <CardActionArea onClick={()=>{console.log('yes')}}>
+        <Card sx={{ width: '100%', height: '100%' }}>
         <CardMedia
-            
-            component="img"
-            image={img}
-            alt="green iguana"
-            sx={{height: '65%'}}
+          component="img"
+          sx={{height:"50%"}}
+          image={img}
+          alt="green iguana"
         />
-        <CardContent sx={{height: '25%'}}>
-            <Typography gutterBottom variant="h5" component="div">
-            Lizard
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
-            </Typography>
+        <CardContent  sx={{padding: '0%', width: '100%',height: '30%'}}>
+          <Typography gutterBottom variant="h5" component="div">
+            MEAL
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            jfbksjghnlvksdkgjspdjglsd,vlskndvrhgpsjfsd,variantrgrbgkjsdjv
+            irhgnvljnsdlhvlsk
+
+          </Typography>
         </CardContent>
-        </CardActionArea >
-    </Card>
+        <CardActions  sx={{padding: '0%', height:'20%', display: 'flex',flexDirection:'column', flex:'1', alignItems: 'start'}}>
+          <Button sx={{marginTop: 'auto', height: '50%', width: '50%'}} variant='contained' size="small">ADD TO CART</Button>
+        </CardActions>
+      </Card>
 );
 }
